@@ -1,0 +1,34 @@
+## Copyright (C) 2020-2023 Aditya Shakya <adi1090x@gmail.com>
+
+[color]
+BG = #1e222a
+BGL = #2c3038
+FG = #c8ccd4
+FGA = #808080
+
+BLACK = #000000
+WHITE = #FFFFFF
+RED = #e06c75
+GREEN = #98c379
+YELLOW = #e5c07b
+BLUE = #61afef
+PURPLE = #c678dd
+CYAN = #56b6c2
+
+
+bg = #cc000000
+
+bg-alt = #20212C
+fg = #acb0d0
+fg-alt = #5D5E72
+
+red = #ff7a93
+
+trans = #00000000
+semi-trans-black = #cc000000
+
+shade-1 = #32344a
+shade-2 = #444b6a
+shade-3 = #787c99
+shade-4 = #CACACE
+shade-5 = #acb0d0
