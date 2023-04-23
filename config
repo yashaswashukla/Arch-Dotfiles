@@ -19,7 +19,9 @@ title_align center
 
 # Uncomment this to disable title bars
 for_window [class=".*"] border pixel 1
+for_window [class="albert"] border none
 smart_borders on
+workspace_auto_back_and_forth yes
 
 # Gaps (Outer gaps are added to the inner gaps)
 gaps inner 5
