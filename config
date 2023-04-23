@@ -65,13 +65,12 @@ bindsym $mod+t 					exec --no-startup-id ~/.config/i3/bin/i3term.sh --full
 bindsym $mod + c                        exec "code"
 bindsym $mod + b                        exec "brave"
 # -- Rofi --
-bindsym $mod+d				exec --no-startup-id ~/.config/i3/rofi/bin/launcher
+bindsym $mod+d				        exec --no-startup-id ~/.config/rofi/launchers/type-1/launcher.sh
 bindsym $mod+n 					exec --no-startup-id ~/.config/i3/rofi/bin/network_menu
-bindsym $mod+x 					exec --no-startup-id ~/.config/i3/rofi/bin/powermenu
-bindsym $mod+m 					exec --no-startup-id ~/.config/i3/rofi/bin/mpd
-bindsym $mod+s 					exec --no-startup-id ~/.config/i3/rofi/bin/screenshot
-bindsym $mod+r 					exec --no-startup-id ~/.config/i3/rofi/bin/asroot
-bindsym $mod+w 					exec --no-startup-id ~/.config/i3/rofi/bin/windows
+bindsym $mod+x 					exec --no-startup-id ~/.config/rofi/applets/bin/powermenu.sh
+bindsym $mod+m 					exec --no-startup-id ~/.config/rofi/applets/bin/mpd.sh
+bindsym $mod+s 					exec --no-startup-id ~/.config/rofi/applets/bin/screenshot.sh
+bindsym $mod+r 					exec --no-startup-id ~/.config/rofi/applets/bin/appasroot.sh
 
 # -- Function keys --
 bindsym XF86MonBrightnessUp 	exec --no-startup-id "~/.config/i3/bin/i3brightness.sh --inc"
