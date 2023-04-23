@@ -65,7 +65,7 @@ bindsym $mod+t 					exec --no-startup-id ~/.config/i3/bin/i3term.sh --full
 bindsym $mod + c                        exec "code"
 bindsym $mod + b                        exec "brave"
 # -- Rofi --
-bindsym $alt+F1 				exec --no-startup-id ~/.config/i3/rofi/bin/launcher
+bindsym $mod+d				exec --no-startup-id ~/.config/i3/rofi/bin/launcher
 bindsym $mod+n 					exec --no-startup-id ~/.config/i3/rofi/bin/network_menu
 bindsym $mod+x 					exec --no-startup-id ~/.config/i3/rofi/bin/powermenu
 bindsym $mod+m 					exec --no-startup-id ~/.config/i3/rofi/bin/mpd
@@ -149,10 +149,10 @@ bindsym $mod+space floating toggle
 bindsym $mod+Shift+space focus mode_toggle
 
 # focus the parent container
-bindsym $mod+a focus parent
+# bindsym $mod+a focus parent
 
 # focus the child container
-bindsym $mod+d focus child
+# bindsym $mod+d focus child
 
 ##-- Workspaces ---------------------
 
