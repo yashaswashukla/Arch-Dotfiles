@@ -33,10 +33,12 @@ ksuperkey -e 'Super_R=Alt_L|F1' &
 
 # Lauch polybar
 # ~/.config/i3/bin/i3bar.sh
+$HOME/.config/polybar/launch.sh --forest
 
 # Lauch compositor
 ~/.config/i3/bin/i3comp.sh
 
-exec feh --bg-scale /home/yashaswa/Pictures/wallpapers/new.jpg
-exec albert
+albert
+mailspring &
+feh --bg-scale /home/yashaswa/Pictures/wallpapers/new.jpg
 
